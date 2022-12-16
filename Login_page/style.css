@@ -129,10 +129,11 @@ body {
 .mainbox:hover {
     box-shadow: 15px 15px 100px #11dfdf;
 }
-@media (max-width: 450px) {
+@media (max-width: 600px) {
     .mainbox {
         width:auto;
-        height: auto;
+        margin-top: 100px;
+        
     }
     #username {
         width:350px;
@@ -160,7 +161,15 @@ body {
         font-size: 19px;
     }
 
-    
+}
+@media (max-width: 400px ){
+    #username, #email, #pass {
+        width:280px;
+        height:30px;
+    }
+    #login {
+        width:300px;
+    }
 }
 
 
