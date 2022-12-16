@@ -65,8 +65,7 @@ h1 {
 
 .rem {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    opacity: 0.8;
-    
+    opacity: 0.8;  
 }
 #forgot {
     padding:16px;
@@ -79,7 +78,6 @@ h1 {
 body {
     background: linear-gradient(-45deg, #e03f0d, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
-
 }
 #login:hover {
     background-color: #90EE90;
