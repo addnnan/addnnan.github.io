@@ -1,0 +1,106 @@
+.mainbox {
+    margin-top:220px;
+    border:0px solid;
+    border-radius: 40px;
+    width:500px;
+    height:500px;
+    padding: 20px;
+    background-color: #E6E6FA;
+    opacity: 0.8;
+    box-shadow: 2px 2px 12px #9ba1a1;
+}
+h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:300px;
+    opacity: 0.8;
+}
+#username {
+    width:300px;
+    height:30px;
+    border-radius: 10px;
+    background:transparent;
+    background-color: #E0FFFF;
+    border: 0px;
+    padding: 10px;
+    font-size: 14px;
+    animation: 5s;
+    
+}
+#email {
+    width:300px;
+    height:30px;
+    border-radius: 10px;
+    background: transparent;
+    background-color: #E0FFFF;
+    border:0px;
+    padding: 10px;
+    font-size: 14px;
+    animation: 5s;
+}
+#pass {
+    width:300px;
+    height:30px;
+    border-radius: 10px;
+    background:transparent;
+    background-color: #E0FFFF;
+    border:0px;
+    padding: 10px;
+    font-size: 14px;
+    animation: 5s;
+}
+#login {
+    width:330px;
+    height:48px;
+    border-radius: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 50px;
+    font-size:20px;
+    border: 0px;
+    background-color: #90EE90;
+    color:whitesmoke;
+    opacity: none;
+    font-weight: 50px; 
+}
+.rem {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 0.8;
+    
+}
+#forgot {
+    padding:16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    display: block;
+    color: #6A5ACD;
+    font-size: 16px;
+}
+body {
+    background: linear-gradient(-45deg, #e03f0d, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+
+}
+#login:hover {
+    background-color: #90EE90;
+    opacity: 0.6;
+    color:rgb(3, 121, 3);
+    font-weight:220px;
+    font-size: 21px;
+}
+#username:hover {
+    border:#90EE90 solid 3px;
+    font-size:16px;
+}
+#email:hover {
+    border:#90EE90 solid 3px;
+    font-size:16px;
+}
+#pass:hover {
+    border:#90EE90 solid 3px;
+    font-size:16px;
+}
+#forgot:hover {
+    color:rgb(173, 14, 173);
+}
+
+
+    
