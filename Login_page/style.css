@@ -136,22 +136,22 @@ body {
         
     }
     #username {
-        width:350px;
+        width:330px;
         height:35px;
         font-size: 16px;
     }  
     #email {
-        width:350px;
+        width:330px;
         height:35px;
         font-size: 16px;
     }  
     #pass {
-        width:350px;
+        width:330px;
         height:35px;
         font-size: 16px;
     }
     #login {
-        width:365px;
+        width:350px;
         height:54px;
     }
     h1 {
