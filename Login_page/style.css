@@ -131,27 +131,26 @@ body {
 }
 @media (max-width: 600px) {
     .mainbox {
-        width:auto;
-        margin-top: 100px;
-        
+        width:330px;
+        margin-top: 120px;      
     }
     #username {
-        width:330px;
+        width:300px;
         height:35px;
         font-size: 16px;
     }  
     #email {
-        width:330px;
+        width:300px;
         height:35px;
         font-size: 16px;
     }  
     #pass {
-        width:330px;
+        width:300px;
         height:35px;
         font-size: 16px;
     }
     #login {
-        width:350px;
+        width:320px;
         height:54px;
     }
     h1 {
@@ -163,6 +162,10 @@ body {
 
 }
 @media (max-width: 400px ){
+    .mainbox {
+        width:300px;
+        margin-top: 60px;
+    }
     #username, #email, #pass {
         width:280px;
         height:30px;
