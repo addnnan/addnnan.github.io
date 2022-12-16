@@ -74,6 +74,7 @@ h1 {
     display: block;
     color: #6A5ACD;
     font-size: 16px;
+    position: relative;
 }
 body {
     background: linear-gradient(-45deg, #e03f0d, #e73c7e, #23a6d5, #23d5ab);
@@ -90,6 +91,7 @@ body {
 #username:hover {
     border:#90EE90 solid 3px;
     font-size:16px;
+    transform: scaleX(0);
 
 }
 #email:hover {
@@ -102,7 +104,9 @@ body {
 }
 #forgot:hover {
     color:rgb(173, 14, 173);
+   
 }
+
 #username:focus {
     border: solid 0px;
     border: solid #90EE90 4px;
@@ -124,6 +128,39 @@ body {
 }
 .mainbox:hover {
     box-shadow: 15px 15px 100px #11dfdf;
+}
+@media (max-width: 780px) {
+    .mainbox {
+        width:450px;
+        height: auto;
+    }
+    #username {
+        width:350px;
+        height:35px;
+        font-size: 16px;
+    }  
+    #email {
+        width:350px;
+        height:35px;
+        font-size: 16px;
+    }  
+    #pass {
+        width:350px;
+        height:35px;
+        font-size: 16px;
+    }
+    #login {
+        width:365px;
+        height:54px;
+    }
+    h1 {
+        font-size: 38px;
+    }
+    #forgot {
+        font-size: 19px;
+    }
+
+    
 }
 
 
