@@ -132,25 +132,25 @@ body {
 @media (max-width: 600px) {
     .mainbox {
         width:330px;
-        margin-top: 120px;      
+        margin-top: 110px;      
     }
     #username {
-        width:300px;
-        height:35px;
+        width:280px;
+        height:32px;
         font-size: 16px;
     }  
     #email {
-        width:300px;
-        height:35px;
+        width:280px;
+        height:32px;
         font-size: 16px;
     }  
     #pass {
-        width:300px;
-        height:35px;
+        width:280px;
+        height:32px;
         font-size: 16px;
     }
     #login {
-        width:320px;
+        width:310px;
         height:54px;
     }
     h1 {
@@ -164,14 +164,14 @@ body {
 @media (max-width: 400px ){
     .mainbox {
         width:300px;
-        margin-top: 60px;
+        margin-top: 50px;
     }
     #username, #email, #pass {
-        width:280px;
+        width:250px;
         height:30px;
     }
     #login {
-        width:300px;
+        width:260px;
     }
 }
 
