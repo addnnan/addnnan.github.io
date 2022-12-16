@@ -91,7 +91,7 @@ body {
 #username:hover {
     border:#90EE90 solid 3px;
     font-size:16px;
-    transform: scaleX(0);
+    
 
 }
 #email:hover {
@@ -129,9 +129,9 @@ body {
 .mainbox:hover {
     box-shadow: 15px 15px 100px #11dfdf;
 }
-@media (max-width: 780px) {
+@media (max-width: 450px) {
     .mainbox {
-        width:450px;
+        width:auto;
         height: auto;
     }
     #username {
