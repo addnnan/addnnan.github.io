@@ -7,12 +7,13 @@
     padding: 20px;
     background-color: #E6E6FA;
     opacity: 0.8;
-    box-shadow: 2px 2px 12px #9ba1a1;
+    box-shadow: 2px 2px 12px #94a3a3;
 }
 h1 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight:300px;
-    opacity: 0.8;
+    font-weight: 300px;
+    opacity: 0.75;
+    filter: blur(0.5px);
 }
 #username {
     width:300px;
@@ -59,8 +60,9 @@ h1 {
     background-color: #90EE90;
     color:whitesmoke;
     opacity: none;
-    font-weight: 50px; 
+    font-weight: 50px;
 }
+
 .rem {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     opacity: 0.8;
@@ -85,10 +87,12 @@ body {
     color:rgb(3, 121, 3);
     font-weight:220px;
     font-size: 21px;
+    box-shadow: 1px 1px 10px rgb(80, 218, 80);
 }
 #username:hover {
     border:#90EE90 solid 3px;
     font-size:16px;
+
 }
 #email:hover {
     border:#90EE90 solid 3px;
@@ -100,6 +104,28 @@ body {
 }
 #forgot:hover {
     color:rgb(173, 14, 173);
+}
+#username:focus {
+    border: solid 0px;
+    border: solid #90EE90 4px;
+    outline: none;
+}
+#email:focus {
+    border: solid 0px;
+    border: solid #90EE90  4px;
+    outline: none;
+}
+#pass:focus {
+    border: solid 0px;
+    border: solid #90EE90  4px;
+    outline: none;
+}
+#check {
+    display:inline-block;
+    margin-right: 6px;
+}
+.mainbox:hover {
+    box-shadow: 15px 15px 100px #11dfdf;
 }
 
 
