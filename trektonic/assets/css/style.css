@@ -77,6 +77,11 @@
 
 }
 
+/* .permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+} */
 
 
 
@@ -131,7 +136,7 @@ body { background: var(--white); }
  * #REUSED STYLE
 \*-----------------------------------*/
 
-.container { padding-inline: 15px; }
+.container { padding-inline: 10px; }
 
 .btn {
   color: var(--white);
@@ -188,7 +193,7 @@ body { background: var(--white); }
   margin-bottom: 8px;
 }
 
-.section-title { margin-bottom: 15px; }
+.section-title { margin-bottom: 15px;}
 
 .section-text {
   color: var(--black-coral);
@@ -275,9 +280,9 @@ body { background: var(--white); }
 
 .header-bottom .container {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
-  padding-block: 15px;
+  padding-block: 46px 10px;
 }
 
 .social-list {
@@ -375,7 +380,7 @@ body { background: var(--white); }
 \*-----------------------------------*/
 
 .hero {
-  background-image: url("../images/img.jpg");
+  background-image: url("../images/ezgif.com-animated-gif-maker.gif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -404,6 +409,14 @@ body { background: var(--white); }
   gap: 10px;
 }
 
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 500,
+  'GRAD' 0,
+  'opsz' 24
+}
 
 
 
@@ -465,6 +478,8 @@ body { background: var(--white); }
   overflow: hidden;
   border-radius: var(--radius-25);
   height: 430px;
+  border:1px solid gray;
+  box-shadow: 4px 4px 6px gray;
 }
 
 .popular-card .card-img { height: 100%; }
@@ -480,7 +495,7 @@ body { background: var(--white); }
   bottom: 20px;
   left: 20px;
   right: 20px;
-  background: var(--white);
+  background: rgb(255, 255, 255,85%);
   border-radius: var(--radius-25);
   padding: 20px;
 }
@@ -532,6 +547,8 @@ body { background: var(--white); }
   background: var(--cultured);
   overflow: hidden;
   border-radius: 15px;
+  border:1px solid var(--spanish-gray);
+  box-shadow: 2px 2px 16px rgb(179, 174, 174) ;
 }
 
 .package-card .card-banner { height: 250px; }
@@ -865,8 +882,11 @@ address {
    */
 
   .container {
+    
     max-width: 580px;
-    margin-inline: auto;
+   
+    margin-inline:auto;
+   
   }
 
   .btn {
@@ -882,7 +902,9 @@ address {
 
   .card-text { --fs-5: 15px; }
 
-
+  .title1{
+    font-size: 10px;
+  }
 
   /**
    * HEADER
