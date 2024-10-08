@@ -212,7 +212,13 @@ body { background: var(--white); }
 /*-----------------------------------*\
  * #HEADER
 \*-----------------------------------*/
-
+.heading{
+  color:rgb(111, 190, 131);
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: underline;
+  text-shadow: 1px 1px 2px;
+}
 .header {
   position: absolute;
   top: 0;
@@ -282,7 +288,7 @@ body { background: var(--white); }
   display: flex;
   justify-content:space-between;
   align-items: center;
-  padding-block: 46px 10px;
+  padding-block: 10px 10px;
 }
 
 .social-list {
@@ -884,8 +890,8 @@ address {
   .container {
     
     max-width: 580px;
-   
     margin-inline:auto;
+    
    
   }
 
@@ -1027,6 +1033,7 @@ address {
   .section-text {
     max-width: 60ch;
     margin-inline: auto;
+    
   }
 
 
@@ -1317,4 +1324,12 @@ address {
 
   .container { max-width: 1180px; }
 
+}
+
+@media (min-width:410px){
+
+  .mainlogo{
+    object-fit: contain;
+    transform: scale(2);
+  }
 }
