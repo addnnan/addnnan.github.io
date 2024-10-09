@@ -238,6 +238,7 @@ body { background: var(--white); }
 }
 
 .header-top {
+ 
   position: absolute;
   top: 0;
   left: 0;
@@ -294,10 +295,12 @@ body { background: var(--white); }
 .header-bottom { border-bottom: 1px solid hsla(0, 0%, 100%, 0.1); }
 
 .header-bottom .container {
+  
+  
   display: flex;
   justify-content:space-between;
   align-items: center;
-  padding-block: 10px 10px;
+  padding-block: 5px;
 }
 
 .social-list {
@@ -905,6 +908,10 @@ address {
     
    
   }
+  .header-bottom .container{
+    padding-top: 0px;
+    padding-bottom: 16px;
+  }
 
   .btn {
     --fs-5: 16px;
@@ -1033,6 +1040,7 @@ address {
 
   }
  
+ 
 
 
   /**
@@ -1046,8 +1054,12 @@ address {
     margin-inline: auto;
     
   }
+ 
 
-
+  .header-bottom .container{
+    padding-top: 0px;
+    padding-bottom: 16px;
+  }
 
   /**
    * HEADER
@@ -1345,10 +1357,15 @@ address {
 @media (min-width:410px){
 
   .mainlogo{
+    margin-top: 10px;
+    margin-bottom: 10px;
     object-fit: contain;
     transform: scale(2);
   }
   .hero{
     background-color: hsla(0, 0%, 0%,0.5);
+  }
+  .header-bottom .container{
+    margin-top: 25px;
   }
 }
