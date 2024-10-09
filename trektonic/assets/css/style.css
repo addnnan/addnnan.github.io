@@ -186,6 +186,8 @@ body { background: var(--white); }
 }
 
 .section-subtitle {
+  display: flex;
+  justify-content: center;
   color: var(--bright-navy-blue);
   font-size: var(--fs-5);
   text-transform: uppercase;
@@ -193,9 +195,16 @@ body { background: var(--white); }
   margin-bottom: 8px;
 }
 
-.section-title { margin-bottom: 15px;}
+.section-title {
+  display:flex;
+  justify-content: center;
+  margin-bottom: 15px;
+
+}
 
 .section-text {
+  display: flex;
+  justify-content: center;
   color: var(--black-coral);
   margin-bottom: 30px;
 }
@@ -352,10 +361,11 @@ body { background: var(--white); }
 .navbar-list li { border-bottom: 1px solid hsla(0, 0%, 0%, 0.1); }
 
 .navbar-link {
+  font-size: 12px;
   padding: 15px 20px;
   color: var(--jet);
   font-weight: var(--fw-500);
-  font-size: var(--fs-4);
+  /* font-size: var(--fs-4); */
   transition: var(--transition);
   text-transform: capitalize;
 }
@@ -390,13 +400,13 @@ body { background: var(--white); }
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: hsla(0, 0%, 0%, 0.7);
+  background-color: hsla(0, 0%, 0%,0.6);
   background-blend-mode: overlay;
   display: grid;
   place-items: center;
   min-height: 600px;
   text-align: center;
-  padding-top: 125px;
+  padding-top: 120px;
 }
 
 .hero-title { margin-bottom: 20px; }
@@ -614,6 +624,7 @@ body { background: var(--white); }
 }
 
 .package-card .card-price {
+  box-shadow: 4px 4px 40px var(--united-nations-blue);
   background: var(--united-nations-blue);
   color: var(--white);
   padding: 25px 20px;
@@ -1021,7 +1032,7 @@ address {
     --fs-5: 15px;
 
   }
-
+ 
 
 
   /**
@@ -1041,7 +1052,9 @@ address {
   /**
    * HEADER
    */
-
+  .navbar-link{
+    font-size: 11px;
+  }
   .helpline-box {
     display: flex;
     justify-content: flex-start;
@@ -1176,6 +1189,7 @@ address {
     position: unset;
     background: unset;
   }
+ 
 
   .nav-open-btn,
   .navbar-top { display: none; }
@@ -1321,7 +1335,9 @@ address {
   /**
    * REUSED STYLE
    */
-
+  .navbar-link{
+    font-size: 14px;
+  }
   .container { max-width: 1180px; }
 
 }
@@ -1331,5 +1347,8 @@ address {
   .mainlogo{
     object-fit: contain;
     transform: scale(2);
+  }
+  .hero{
+    background-color: hsla(0, 0%, 0%,0.5);
   }
 }
